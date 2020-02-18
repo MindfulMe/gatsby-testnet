@@ -30,11 +30,11 @@ export default ({ children, location }) => (
         data.cosmicjsSettings.metadata.homepage_hero.imgix_url
       let header
 
-      let rootPath = `/`
-      let postsPath = `/posts`
+      let rootPath = `/blog/`
+      let postsPath = `/blog/posts`
       if (typeof __PREFIX_PATHS__ !== `undefined` && __PREFIX_PATHS__) {
-        rootPath = __PATH_PREFIX__ + `/`
-        postsPath = __PATH_PREFIX__ + `/posts`
+        rootPath = __PATH_PREFIX__ + `/blog/`
+        postsPath = __PATH_PREFIX__ + `/blog/posts`
       }
 
       if (location.pathname === rootPath || location.pathname === postsPath) {
@@ -69,7 +69,7 @@ export default ({ children, location }) => (
                   textDecoration: 'none',
                   color: 'inherit',
                 }}
-                to={'/'}
+                to={'/blog/'}
               >
                 {siteTitle}
               </Link>
@@ -95,7 +95,7 @@ export default ({ children, location }) => (
                 textDecoration: 'none',
                 color: 'inherit',
               }}
-              to={'/'}
+              to={'/blog/'}
             >
               {siteTitle}
             </Link>
@@ -122,29 +122,10 @@ export default ({ children, location }) => (
               padding: `0 20px 80px 0`,
             }}
           >
-            powered by&nbsp;
+            The blog of&nbsp;
             <a
               target="_blank"
-              href="https://gatsbyjs.org"
-              style={{
-                color: '#191919',
-                boxShadow: 'none',
-              }}
-            >
-              <img
-                src={gatsbyLogo}
-                alt="Gatsby JS"
-                style={{
-                  width: '20px',
-                  margin: '0 4px -3px 2px',
-                }}
-              />
-              <strong>Gatsby</strong>
-            </a>
-            &nbsp;and&nbsp;
-            <a
-              target="_blank"
-              href="https://cosmicjs.com"
+              href="https://bitolx.com"
               style={{
                 color: '#191919',
                 boxShadow: 'none',
@@ -158,7 +139,7 @@ export default ({ children, location }) => (
                   margin: '0 4px -2px 5px',
                 }}
               />
-              <strong>Cosmic JS</strong>
+              <strong>BitOLX</strong>
             </a>
           </footer>
         </div>

@@ -46,7 +46,7 @@ class BlogPostTemplate extends React.Component {
             marginTop: rhythm(1.4),
           }}
         >
-          <Link to="/">← Back to Posts</Link>
+          <Link to="/blog/">← Back to Posts</Link>
         </div>
         <h1
           style={{
@@ -98,7 +98,7 @@ class BlogPostTemplate extends React.Component {
         >
           {previous && (
             <li>
-              <Link to={`posts/${previous.slug}`} rel="prev">
+              <Link to={`blog/posts/${previous.slug}`} rel="prev">
                 ← {previous.title}
               </Link>
             </li>
@@ -106,7 +106,7 @@ class BlogPostTemplate extends React.Component {
 
           {next && (
             <li>
-              <Link to={`posts/${next.slug}`} rel="next">
+              <Link to={`blog/posts/${next.slug}`} rel="next">
                 {next.title} →
               </Link>
             </li>

@@ -1,0 +1,1 @@
+rm -rf public && npm run develop & exit 0 && npm run build && cd public && git init && git remote add origin https://github.com/MindfulMe/blog-min && git add . && git commit -m "init by vs code" && git push origin master -f
