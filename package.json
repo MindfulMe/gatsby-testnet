@@ -1,8 +1,8 @@
 {
-  "name": "bitolx_weekly_blog",
-  "description": "BitOLX Weekly Blog",
-  "version": "2.0.0",
-  "author": "Jazib Sawar <jazibsawar@gmail.com>",
+  "name": "citvys_daily_blog",
+  "description": "CITVY щоденний блог",
+  "version": "3.0.0",
+  "author": "Rostislav Gogolauri <ceo@citvy.com>",
   "bugs": {
     "url": "https://github.com/jazibsawar/gatsby-blog-cosmicjs/issues"
   },

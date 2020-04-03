@@ -122,10 +122,10 @@ export default ({ children, location }) => (
               padding: `0 20px 80px 0`,
             }}
           >
-            The blog of&nbsp;
+            Щоденний Блог&nbsp;
             <a
               target="_blank"
-              href="https://bitolx.com"
+              href="https://citvy.com"
               style={{
                 color: '#191919',
                 boxShadow: 'none',
@@ -139,7 +139,7 @@ export default ({ children, location }) => (
                   margin: '0 4px -2px 5px',
                 }}
               />
-              <strong>BitOLX</strong>
+              <strong>CITVY</strong>
             </a>
           </footer>
         </div>

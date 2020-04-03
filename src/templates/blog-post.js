@@ -46,7 +46,7 @@ class BlogPostTemplate extends React.Component {
             marginTop: rhythm(1.4),
           }}
         >
-          <Link to="/blog/">← Back to Posts</Link>
+          <Link to="/blog/">← Повернутися на головну</Link>
         </div>
         <h1
           style={{
